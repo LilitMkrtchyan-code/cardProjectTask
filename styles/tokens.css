@@ -1,0 +1,24 @@
+:root {
+   --wp--fontFamily--title: Arial, Helvetica, sans-serif;
+   --wp--fontFamily--main: "Dosis", sans-serif;
+   --wp--font--size--large: 42px;
+   --wp--font--size--medium1: 22px;
+   --wp--font--size--medium2: 18px;
+   --wp--font--size--medium3: 16px
+   --wp--font--size--small: 13px;
+   --wp--primaryBg--grey: rgb(247 251 248);
+   --wp--secondaryBg--white: #fff;
+   --wp--primaryColor--darkGrey: #363636;
+   --wp--primaryColor--grey: #585858;
+   --wp--secondaryColor--black: #000;
+   --wp--color--red: #fb3232;
+   --wp--color--light--gray: rgb(220, 219, 219);
+   --wp--spacing--5: 5px;
+   --wp--spacing--10: 10px;
+   --wp--spacing--15: 15px;
+   --wp--spacing--20: 20px;
+   --wp--spacing--25: 25px;
+   --wp--spacing--30: 30px;
+   --wp--spacing--40: 40px;
+   --wp--spacing--50: 50px;
+}

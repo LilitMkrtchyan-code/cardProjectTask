@@ -1,0 +1,102 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+   list-style: none;
+}
+
+body {
+   background: var(--wp--primaryBg--grey);
+   color: var(--wp--primaryColor--darkGrey);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: var(--wp--spacing--15);
+   line-height: 1.5;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+/*  card-header  */
+.page .card-header {
+   padding-top: var(--wp--spacing--50);  
+   padding-bottom: var(--wp--spacing--50);
+   padding-left: var(--wp--spacing--40);
+   padding-right: var(--wp--spacing--40);
+}
+
+.page .card-header .main-title {
+   font-family: var(--wp--fontFamily--title);
+   font-size: var(--wp--font--size--large);
+   letter-spacing: 2px;
+   text-transform: capitalize;
+   color: var(--wp--secondaryColor--black);
+}
+
+.page .card-header .subhead {
+   color: var(--wp--primaryColor--darkGrey);
+   font-size: var(--wp--font--size--medium2);
+}
+
+/*  info-section  */
+.page .info-section {
+   background: var(--wp--secondaryBg--white);
+   padding: var(--wp--spacing--40);
+   border: 2px solid #d8d5d5;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 
+   0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.info-section .section-title {
+   font-family: var(--wp--fontFamily--title);
+   font-size: var(--wp--font--size--medium1);
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   margin-bottom: var(--wp--spacing--25);
+   color: var(--wp--primaryColor--darkGrey);
+}
+
+.info-section .section-content {
+   gap: var(--wp--spacing--15);
+   padding-top: var(--wp--spacing--25);
+   padding-bottom: var(--wp--spacing--30);
+   border-top: 2px dashed var(--wp--color--light--gray); 
+}
+
+.section-content .section-text {
+   font-family: var(--wp--fontFamily--main);
+   color: var(--wp--primaryColor--grey);
+   font-size: var(--wp--font--size--medium2);
+   width: 80%;
+}
+
+.section-content .card-avatar {
+   width: 18%;
+}
+
+.info-section .link-section li {
+   padding: var(--wp--spacing--10);
+}
+
+ul li:not(:last-child) {
+   border-right: 1px dashed var(--wp--color--light--gray);
+}
+
+.info-section .link-section li a {
+   font-family: var(--wp--fontFamily--main);
+   color: var(--wp--color--red);
+   font-size: var( --wp--font--size--medium3);
+   text-decoration: none;
+}
